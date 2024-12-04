@@ -1,0 +1,91 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,400&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", serif;
+}
+h1{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: centre;
+    padding: 4% 5% 0%;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+}
+.inner-box{
+    width: 400px;
+    margin: auto ;
+    position: relative;
+    top: 5%;
+    padding: 20px 30px;
+}
+h3{
+    font-size: 1.5 em;
+    padding:0 25% 0;
+}
+
+    .account{
+        padding: 0 15% 2% 15%;
+    }
+    .signup-footer{
+        padding: 8% 6% 0;
+        color: rgb(217, 212, 212);
+    }
+
+    .without-signin{
+        padding: 0 8% 0;
+    }
+    .Email{
+        margin: 2%  0% 0% 0% ;
+        color:rgb(87, 75, 75);
+        margin: 0% 0% 1% 0%;
+    }
+    .password{
+        margin: 0% 0% 1% 0%;
+        color:rgb(87, 75, 75);
+
+
+    }
+    .table1{
+        /* padding:1% 5%; */
+        border: 1px solid grey;
+        border-radius: 5px;
+        text-align: left;
+        width:80% ;
+        height: 28px;
+        padding-left:2%;
+}
+.table2{
+    /* padding:1% 5% ; */
+    border: 1px solid grey;
+        border-radius: 5px;
+        text-align: left;
+        width:80% ;
+        height: 28px;
+        padding-left: 2%;
+}
+.button{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    background-color: rgb(122, 114, 114);
+    color: white;
+    width: 800px;
+    height: 40px;
+    border:1px solid black;
+    border-radius: 0px;
+    
+}
+
